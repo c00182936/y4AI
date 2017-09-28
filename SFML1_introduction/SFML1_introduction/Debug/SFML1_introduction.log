@@ -1,0 +1,8 @@
+﻿  player.cpp
+c:\users\gameuser\documents\ai\sfml1_introduction\sfml1_introduction\player.cpp(12): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Source.cpp
+c:\users\gameuser\documents\ai\sfml1_introduction\sfml1_introduction\source.cpp(16): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\gameuser\documents\ai\sfml1_introduction\sfml1_introduction\source.cpp(17): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+  Generating Code...
+  SFML1_introduction.vcxproj -> C:\Users\gameuser\Documents\AI\SFML1_introduction\Debug\SFML1_introduction.exe
+  SFML1_introduction.vcxproj -> C:\Users\gameuser\Documents\AI\SFML1_introduction\Debug\SFML1_introduction.pdb (Partial PDB)
