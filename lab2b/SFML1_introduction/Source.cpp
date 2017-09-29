@@ -11,8 +11,9 @@ int main()
 
 	sf::RenderWindow window(sf::VideoMode(1920, 1080), "win");
 	sf::RenderWindow *win = &window;
-	AI ai(60.0f,window.getSize());
 	Player player(60.0f);
+	AI ai(60.0f,window.getSize(),&player);
+
 
 	window.setFramerateLimit(60);
 	ai.setPos(sf::Vector2f((window.getSize().x / 3), window.getSize().y / 2));

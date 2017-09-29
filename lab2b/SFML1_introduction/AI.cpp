@@ -2,12 +2,13 @@
 
 
 
-AI::AI(float rad,sf::Vector2u bounds)
+AI::AI(float rad,sf::Vector2u bounds, Player *ref)
 {
 	/*image = sf::CircleShape(rad, 5);
 	image.setFillColor(sf::Color::Black);
 	image.setOutlineColor(sf::Color::Red);
 	image.setOutlineThickness(10);*/
+	playerRef = ref;
 	if (!tex.loadFromFile("ai.png"))
 	{
 
@@ -30,6 +31,7 @@ void AI::draw(sf::RenderWindow *win)
 
 void AI::update()
 {
+	KinematicSeek();
 	pos += dir;
 	spr.setPosition(pos);
 }
@@ -47,10 +49,38 @@ sf::Vector2f AI::getPos()
 
 void AI::KinematicWander()
 {
-	targetPos.x = rand() % screenBoundary.x;
-	targetPos.y = rand() % screenBoundary.y;
+	
 
 
+
+}
+
+void AI::KinematicSeek()
+{
+	float hypotenuse;
+	sf::Vector2f hyp;
+	hyp = playerRef->getPos() - pos;
+	hypotenuse = hypotf(hyp.x, hyp.y);
+	//normalize it
+	hyp.x /= hypotenuse;
+	hyp.y /= hypotenuse;
+	dir = hyp;
+	direction = atan2(hyp.x, hyp.y);
+	direction *= 180;
+	spr.setRotation(direction);
+}
+
+void AI::KinematicArrive()
+{
+}
+
+void AI::findNewDirection()
+{
+
+}
+
+void AI::kinematicAvoid()
+{
 
 }
 
@@ -73,6 +103,17 @@ void AI::clampDirection()
 }
 
 void AI::findDirection()
+{
+	float tempDir = direction*(std::atan(1.0) * 4);
+	tempDir /= 180;
+	//dir.x = sin(direction);
+	//dir.y = cos(direction);
+	dir.x = cos(tempDir);
+	dir.y = sin(tempDir);
+	spr.setRotation(direction);
+}
+
+void AI::findDirection(sf::Vector2f hyp)
 {
 	float tempDir = direction*(std::atan(1.0) * 4);
 	tempDir /= 180;

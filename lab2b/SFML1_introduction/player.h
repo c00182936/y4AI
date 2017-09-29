@@ -14,12 +14,13 @@ public:
 	void setPos(sf::Vector2f p);
 	float r;
 	sf::CircleShape image;
+	sf::Vector2f pos;
 private:
 	float speed=0;
 	float accel=0.5;
 	float maxSpeed=15;
 	float drag=1.01;
-	sf::Vector2f pos;
+
 	sf::Vector2f dir;
 	float direction;
 	void clampDirection();
