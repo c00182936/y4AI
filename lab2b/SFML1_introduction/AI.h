@@ -7,6 +7,8 @@ class AI
 {
 public:
 	AI(float rad,sf::Vector2u bounds, Player *ref);
+	int state;//seeking=1, arrive=2, avoid=3
+	int type;
 	void draw(sf::RenderWindow *win);
 	void update();
 	void setPos(sf::Vector2f p);
@@ -17,6 +19,7 @@ public:
 	void KinematicArrive();
 	void findNewDirection();
 	void kinematicAvoid();
+	void checkArrived();
 	float r;
 	~AI();
 private:
@@ -31,5 +34,9 @@ private:
 	sf::Sprite spr;
 	sf::Texture tex;
 	sf::Vector2u screenBoundary;
+	int velocity;
+	int chaseVelocity=3;
+	int arriveVelocity=1;
+	int avoidVelocity=0.1;
 };
 

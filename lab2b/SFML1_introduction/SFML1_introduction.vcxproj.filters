@@ -24,12 +24,30 @@
     <ClCompile Include="AI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="seekAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wanderAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="persueAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="player.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="AI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="seekAI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wanderAI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="persueAI.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
