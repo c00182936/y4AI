@@ -250,7 +250,7 @@ void Boid::swarm(vector <Boid> v)
 */
 	//magic numbers
 	float A=9;
-	float B=31;
+	float B=31.5;
 
 	float N=0.7;
 	float M=1;

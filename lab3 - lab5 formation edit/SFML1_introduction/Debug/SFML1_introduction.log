@@ -1,0 +1,32 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SFML1_introduction.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  wanderAI.cpp
+  Source.cpp
+c:\users\gameuser\documents\ai\lab3 - lab5 formation edit\sfml1_introduction\player.h(22): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\gameuser\documents\ai\lab3 - lab5 formation edit\sfml1_introduction\ai.h(40): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\gameuser\documents\ai\lab3 - lab5 formation edit\sfml1_introduction\source.cpp(19): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\gameuser\documents\ai\lab3 - lab5 formation edit\sfml1_introduction\source.cpp(20): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+  seekAI.cpp
+c:\users\gameuser\documents\ai\lab3 - lab5 formation edit\sfml1_introduction\player.h(22): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\gameuser\documents\ai\lab3 - lab5 formation edit\sfml1_introduction\seekai.cpp(16): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\gameuser\documents\ai\lab3 - lab5 formation edit\sfml1_introduction\seekai.cpp(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\gameuser\documents\ai\lab3 - lab5 formation edit\sfml1_introduction\seekai.cpp(20): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\gameuser\documents\ai\lab3 - lab5 formation edit\sfml1_introduction\seekai.cpp(70): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  player.cpp
+c:\users\gameuser\documents\ai\lab3 - lab5 formation edit\sfml1_introduction\player.h(22): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\gameuser\documents\ai\lab3 - lab5 formation edit\sfml1_introduction\player.cpp(7): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\gameuser\documents\ai\lab3 - lab5 formation edit\sfml1_introduction\player.cpp(19): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\gameuser\documents\ai\lab3 - lab5 formation edit\sfml1_introduction\player.cpp(24): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\gameuser\documents\ai\lab3 - lab5 formation edit\sfml1_introduction\player.cpp(110): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  persueAI.cpp
+  AI.cpp
+c:\users\gameuser\documents\ai\lab3 - lab5 formation edit\sfml1_introduction\player.h(22): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\gameuser\documents\ai\lab3 - lab5 formation edit\sfml1_introduction\ai.h(40): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\gameuser\documents\ai\lab3 - lab5 formation edit\sfml1_introduction\ai.cpp(16): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\gameuser\documents\ai\lab3 - lab5 formation edit\sfml1_introduction\ai.cpp(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\gameuser\documents\ai\lab3 - lab5 formation edit\sfml1_introduction\ai.cpp(21): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\gameuser\documents\ai\lab3 - lab5 formation edit\sfml1_introduction\ai.cpp(99): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\gameuser\documents\ai\lab3 - lab5 formation edit\sfml1_introduction\ai.cpp(153): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\gameuser\documents\ai\lab3 - lab5 formation edit\sfml1_introduction\ai.cpp(164): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  SFML1_introduction.vcxproj -> C:\Users\gameuser\Documents\AI\lab3 - lab5 formation edit\Debug\lab2a.exe
+  SFML1_introduction.vcxproj -> C:\Users\gameuser\Documents\AI\lab3 - lab5 formation edit\Debug\lab2a.pdb (Partial PDB)
