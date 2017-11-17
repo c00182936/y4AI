@@ -3,8 +3,8 @@
 #include "Boid.h"
 #include "Pvector.h"
 #include "Flock.h"
-#include "SFML/Window.hpp"
-#include "SFML/Graphics.hpp"
+#include "SFML\Window.hpp"
+#include "SFML\Graphics.hpp"
 #include <string>
 using namespace std;
 
@@ -23,7 +23,14 @@ int main()
 	sf::VideoMode desktop = sf::VideoMode::getDesktopMode();
 	const int window_height = desktop.height;
 	const int window_width = desktop.width;
-
+	sf::RectangleShape sea;
+	sf::RectangleShape sky;
+	sea.setPosition(0, desktop.height / 2);
+	sea.setSize(sf::Vector2f(desktop.width, desktop.height / 2));
+	sky.setPosition(0, 0);
+	sky.setSize(sf::Vector2f(desktop.width, desktop.height / 2));
+	sea.setFillColor(sf::Color(7, 99, 165));
+	sky.setFillColor(sf::Color(140, 153, 255));
 	//Having the style of "None" gives a false-fullscreen effect for easier closing and access.
 	//No FPS limit of V-sync setting needed for it may cause unnecessary slowdown.
 	sf::RenderWindow window(sf::VideoMode(desktop.width, desktop.height, desktop.bitsPerPixel), "Boids", sf::Style::None); 
@@ -104,10 +111,12 @@ int main()
 		}
 		//Clears previous frames of visualization to not have clutter. (And simulate animation)
 		window.clear();
-
+			window.draw(sea);
+			window.draw(sky);
 		//Draws all of the Boids out, and applies functions that are needed to update.
 		for (int i = 0; i < shapes.size(); i++)
 		{
+
 			window.draw(shapes[i]);
 
 			//Cout's removed due to slowdown and only needed for testing purposes

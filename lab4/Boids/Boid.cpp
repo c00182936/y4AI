@@ -4,7 +4,7 @@
 #include <vector>
 #include <string>
 #include <math.h>
-#include "SFML/Graphics.hpp"
+#include "SFML\Graphics.hpp"
 #include "Boid.h"
 
 // Global Variables for borders()

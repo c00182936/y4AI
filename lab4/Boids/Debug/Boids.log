@@ -1,13 +1,36 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Boids.vcxproj, Swarm.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+﻿F:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Boids.vcxproj, Swarm.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Pvector.cpp
+g:\git\y4\y4ai\lab4\boids\pvector.cpp(88): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+g:\git\y4\y4ai\lab4\boids\pvector.cpp(135): warning C4305: 'return': truncation from 'double' to 'float'
+g:\git\y4\y4ai\lab4\boids\pvector.cpp(140): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  main.cpp
+g:\git\y4\y4ai\lab4\boids\boid.h(42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\git\y4\y4ai\lab4\boids\boid.h(53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\git\y4\y4ai\lab4\boids\boid.h(57): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\git\y4\y4ai\lab4\boids\main.cpp(28): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+g:\git\y4\y4ai\lab4\boids\main.cpp(29): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+g:\git\y4\y4ai\lab4\boids\main.cpp(31): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+g:\git\y4\y4ai\lab4\boids\main.cpp(46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\git\y4\y4ai\lab4\boids\main.cpp(51): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+g:\git\y4\y4ai\lab4\boids\main.cpp(94): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\git\y4\y4ai\lab4\boids\main.cpp(98): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\git\y4\y4ai\lab4\boids\main.cpp(117): warning C4018: '<': signed/unsigned mismatch
+  Flock.cpp
+g:\git\y4\y4ai\lab4\boids\boid.h(42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\git\y4\y4ai\lab4\boids\boid.h(53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\git\y4\y4ai\lab4\boids\boid.h(57): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\git\y4\y4ai\lab4\boids\flock.cpp(29): warning C4018: '<': signed/unsigned mismatch
+g:\git\y4\y4ai\lab4\boids\flock.cpp(38): warning C4018: '<': signed/unsigned mismatch
   Boid.cpp
-c:\users\gameuser\documents\ai\lab4\boids\boid.h(42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\gameuser\documents\ai\lab4\boids\boid.h(53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\gameuser\documents\ai\lab4\boids\boid.h(57): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\gameuser\documents\ai\lab4\boids\boid.cpp(45): warning C4018: '<': signed/unsigned mismatch
-c:\users\gameuser\documents\ai\lab4\boids\boid.cpp(108): warning C4018: '<': signed/unsigned mismatch
-c:\users\gameuser\documents\ai\lab4\boids\boid.cpp(147): warning C4018: '<': signed/unsigned mismatch
-c:\users\gameuser\documents\ai\lab4\boids\boid.cpp(158): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\gameuser\documents\ai\lab4\boids\boid.cpp(186): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\gameuser\documents\ai\lab4\boids\boid.cpp(255): warning C4305: 'initializing': truncation from 'double' to 'float'
-  Boids.vcxproj -> C:\Users\gameuser\Documents\AI\lab4\Debug\Flock.exe
-  Boids.vcxproj -> C:\Users\gameuser\Documents\AI\lab4\Debug\Flock.pdb (Partial PDB)
+g:\git\y4\y4ai\lab4\boids\boid.h(42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\git\y4\y4ai\lab4\boids\boid.h(53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\git\y4\y4ai\lab4\boids\boid.h(57): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\git\y4\y4ai\lab4\boids\boid.cpp(45): warning C4018: '<': signed/unsigned mismatch
+g:\git\y4\y4ai\lab4\boids\boid.cpp(108): warning C4018: '<': signed/unsigned mismatch
+g:\git\y4\y4ai\lab4\boids\boid.cpp(147): warning C4018: '<': signed/unsigned mismatch
+g:\git\y4\y4ai\lab4\boids\boid.cpp(158): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\git\y4\y4ai\lab4\boids\boid.cpp(186): warning C4305: 'argument': truncation from 'double' to 'float'
+g:\git\y4\y4ai\lab4\boids\boid.cpp(255): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Generating Code...
+  Boids.vcxproj -> G:\git\y4\y4AI\lab4\Debug\Flock.exe
+  Boids.vcxproj -> G:\git\y4\y4AI\lab4\Debug\Flock.pdb (Partial PDB)
