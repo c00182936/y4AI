@@ -10,12 +10,13 @@ public:
 	};
 	//~Slope() {};
 	float getVal(float x){
-;
+		float result, temp1, temp2;
 		if (x>=upSlopeStart&&x<=upSlopeEnd)//y=slope(x)+
 		{
-			float temp1 = upSlopeEnd - upSlopeStart;
-			float temp2 = upSlopeEnd - x;
-			return temp1/temp2;
+			temp1 = upSlopeEnd - upSlopeStart;
+			temp2 = upSlopeEnd - x;
+			result = temp1 / temp2;
+			return result;
 		}
 		else if (x >= midSlopeStart&&x <= midSlopeEnd)
 		{
@@ -23,9 +24,11 @@ public:
 		}
 		else if (x >= downSlopeStart&&x <= downSlopeEnd)
 		{
-			float temp1 = downSlopeEnd - downSlopeStart;
-			float temp2 = downSlopeEnd - x;
-			return temp1 / temp2;
+			temp1 = downSlopeEnd - downSlopeStart;
+			temp2 = downSlopeEnd - x;
+			result = temp1 / temp2;
+			result = 1 - result;
+			return result;
 		}
 
 	}
